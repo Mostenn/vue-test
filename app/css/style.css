@@ -1,0 +1,145 @@
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header .wrap {
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .wrap .logo {
+  height: 100px;
+}
+
+.header .wrap .logo img {
+  height: 100%;
+}
+
+.header .wrap .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .wrap .menu li {
+  padding: 0 15px;
+}
+
+.header .wrap .menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header .wrap h1 {
+  margin: 3rem 0 10rem;
+  font-size: 5rem;
+}
+
+.section-1 {
+  background: 0 80% no-repeat url("../img/img.png"), #efefef;
+  background-size: cover;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-1 img {
+  width: 100%;
+}
+
+.section-2 .wrap {
+  justify-content: space-around;
+  padding: 8rem 0;
+}
+
+.section-2 .wrap .box {
+  flex-grow: 0;
+}
+
+.section-2 .wrap .box h3 {
+  font-size: 2.5rem;
+  margin: 10px 0 20px;
+}
+
+.section-2 .wrap .box li {
+  list-style: disc;
+  margin-bottom: 10px;
+}
+
+.section-3 {
+  background: #1E1E26;
+  padding: 50px 0;
+}
+
+.section-3 .wrap {
+  background: #1E1E26;
+  justify-content: space-around;
+}
+
+.section-3 .wrap h2 {
+  font-size: 3rem;
+  color: #fff;
+  width: 4rem;
+  letter-spacing: 2px;
+}
+
+.section-3 .wrap h2:after {
+  content: '';
+  display: block;
+  margin-top: 10px;
+  border-bottom: 3px solid #F9D10D;
+}
+
+.section-3 .wrap form {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-3 .wrap form input,
+.section-3 .wrap form textarea,
+.section-3 .wrap form button {
+  background: transparent;
+  border: 1px solid #60E3A1;
+  color: #3F8B66;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.section-3 .wrap form button {
+  display: inline;
+  background: #60E3A1;
+  color: #1D2028;
+}
+
+footer {
+  padding: 1rem 0;
+  border-top: 1px solid #2A2A34;
+  background: #1E1E26;
+}
+
+footer .wrap {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .wrap .links {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .wrap .links a {
+  padding: 5px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .wrap span {
+  color: #4A4D5E;
+}
