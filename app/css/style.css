@@ -72,12 +72,12 @@
 }
 
 .section-3 {
-  background: #1E1E26;
+  background: #1e1e26;
   padding: 50px 0;
 }
 
 .section-3 .wrap {
-  background: #1E1E26;
+  background: #1e1e26;
   justify-content: space-around;
 }
 
@@ -89,10 +89,10 @@
 }
 
 .section-3 .wrap h2:after {
-  content: '';
+  content: "";
   display: block;
   margin-top: 10px;
-  border-bottom: 3px solid #F9D10D;
+  border-bottom: 3px solid #f9d10d;
 }
 
 .section-3 .wrap form {
@@ -104,8 +104,8 @@
 .section-3 .wrap form textarea,
 .section-3 .wrap form button {
   background: transparent;
-  border: 1px solid #60E3A1;
-  color: #3F8B66;
+  border: 1px solid #60e3a1;
+  color: #3f8b66;
   font-weight: bold;
   margin: 10px 0;
   padding: 15px 10px;
@@ -114,14 +114,14 @@
 
 .section-3 .wrap form button {
   display: inline;
-  background: #60E3A1;
-  color: #1D2028;
+  background: #60e3a1;
+  color: #1d2028;
 }
 
 footer {
   padding: 1rem 0;
-  border-top: 1px solid #2A2A34;
-  background: #1E1E26;
+  border-top: 1px solid #2a2a34;
+  background: #1e1e26;
 }
 
 footer .wrap {
@@ -141,5 +141,104 @@ footer .wrap .links a {
 }
 
 footer .wrap span {
-  color: #4A4D5E;
+  color: #4a4d5e;
+}
+
+.wrap #comments p {
+  text-align: center;
+  color: darkgray;
+  font-weight: bold;
+  margin: 15px 0 25px;
+}
+
+.wrap #comments .btn-box {
+  text-align: center;
+}
+
+.wrap #comments .btn-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #60e3a1;
+  background: transparent;
+}
+
+.wrap #comments .cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
+  max-height: 1000px;
+}
+
+.wrap #comments .cards .card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.14), 0 2px 5px 5px rgba(0, 0, 0, 0.12), 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  margin: 15px 10px;
+  padding: 30px 20px;
+  width: calc(50% - 60px);
+}
+
+.wrap #comments .cards .card .card-header {
+  margin-bottom: 15px;
+}
+
+.wrap #comments .cards .card .card-body {
+  color: darkgray;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+.wrap #comments .cards .card button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #60e3a1;
+  color: #2a2a34;
+  outline: none;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  background: #60e3a1;
+}
+
+#comment {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+#comment > a {
+  margin-bottom: 2rem;
+}
+
+#comment h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#comment p {
+  line-height: 1.5em;
+  margin-bottom: 2rem;
+}
+
+#comment p:last-of-type {
+  text-align: center;
+  color: darkgray;
+  font-weight: bold;
+  margin: 15px 0 25px;
+}
+
+#comment .btn-box {
+  text-align: center;
+}
+
+#comment .btn-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #60e3a1;
+  background: transparent;
 }
